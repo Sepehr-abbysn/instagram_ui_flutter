@@ -1,13 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_flutter/screens/activity_screen.dart';
-import 'package:instagram_flutter/screens/home_screen.dart';
-import 'package:instagram_flutter/screens/login_screen.dart';
 import 'package:instagram_flutter/screens/main_screen.dart';
-import 'package:instagram_flutter/screens/new_post_screen.dart';
-import 'package:instagram_flutter/screens/search_screen.dart';
-import 'package:instagram_flutter/screens/test.dart';
-import 'package:instagram_flutter/screens/user_profile_screen.dart';
-import 'screens/swtich_account_screen.dart';
 
 void main() {
   runApp(Application());
