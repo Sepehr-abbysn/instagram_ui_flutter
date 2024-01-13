@@ -48,13 +48,14 @@ class _ActivityScreenState extends State<ActivityScreen>
               ),
             ),
             Expanded(
-                child: TabBarView(
-              controller: _tabController,
-              children: [
-                _getSampleList(),
-                _getSampleList(),
-              ],
-            ))
+              child: TabBarView(
+                controller: _tabController,
+                children: [
+                  _getSampleList(),
+                  _getSampleList(),
+                ],
+              ),
+            )
           ],
         ),
       ),
